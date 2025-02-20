@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #0e0d0d;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #e8e5f1;
+}
+/* Buscar etiqueta para fondo de texto */
+h2{
+    background-color: #eef50a;    
+}
