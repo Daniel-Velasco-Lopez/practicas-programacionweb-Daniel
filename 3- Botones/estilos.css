@@ -1,0 +1,20 @@
+.boton1{
+    background-color: #28beff;
+    color: white;
+}
+.boton2{
+    border-radius: 15px;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 15px; /*espacio entre el texto y el contenedor del boton*/
+}
+.boton3{
+    border-radius: 15px;
+    background-color: #f7e30e;
+    color: black;
+    padding: 10px 20px;
+    text-align: end;
+    border: none; /*esto ayuda a quitar los border que hay*/
+    font-size: 25px;
+    font-family: cursive;
+}
