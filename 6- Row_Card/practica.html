@@ -11,21 +11,119 @@
     <div class="container">
         <!--Inicio de la cabecera-->
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-9">
                 <div class="card mt-4">
                     <div style="background-color: black;" class="card-header">
                         <h6 class="text-white text-center">Primer Card</h6>
                     </div>
                     <div class="card-body">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Eligendi tempore perferendis tenetur porro, in qui. 
-                            Maiores culpa labore sapiente earum, magnam, odit quisquam 
-                            enim doloremque est maxime aut, fugit nam!</p>
+                        <button class="btn btn-danger">CSS Boton</button>
+                        <button class="btn btn-danger">Bootstrap Boton</button>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4"></div>
+                <div class="card">
+                    <div style="background-color: orange;" class="card-header">
+                        <button class="btn btn-danger">Bootstrap Boton</button>
+                    </div>
+                    <div class="card-body"></div>
+                </div>
+                <div class="card mt-4"></div>
+                <div class="card">
+                    <div style="background-color: orange;" class="card-header">
+                        <button class="btn btn-danger">Bootstrap Boton</button>
+                    </div>
+                    <div class="card-body"></div>
                 </div>
             </div>
         </div>
         <!--Fin de la cabecera-->
+
+        <!--Inicio de 2do row-->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div style="background-color: aqua;" class="card-header">
+                        <h6 class="text-black text-center">Moto</h6></div>
+                        <div class="card-body">
+                            <img width="200" height="200" src="img/moto.jpg" alt="moto">     
+                        </div>
+                
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div style="background-color: aqua;" class="card-header">
+                        <h6 class="text-black text-center">CABALLO</h6></div>
+                        <div class="card-body">
+                            <img width="200" height="200" src="img/PeakD.png" alt="caballo">    
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mt-4">
+                    <div style="background-color: aqua;" class="card-header">
+                        <h6>NADA</h6></div>
+                        <div class="card-body">
+                        <p><br>
+                        
+
+
+
+
+
+                            
+
+                        <br></p>
+                                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin del 2do row-->
+
+        <!--Inicio del 3er row-->
+        <div class="row">
+            <div class="col-md-7">
+                <div class="card mt-4">
+                    <div style="background-color: beige;" class="card-header">
+                        <h6 class="text-black text-center">VAALIDACION DE CORREO Y CONTRASEÑA</h6></div>
+                        <input asp-for="correo" type="email" class="form-control" id="inputDescripcion" placeholder="Escribe el Correo Electrónico" required><br>
+                        <input asp-for="contraseña" type="password" name="recontrasena" id="contrasena" placeholder="Confirme su contraseña..." required><br><br>
+                        <img width="200" height="200" src="img/Ford-Mustang-clasico.jpg" alt="caballo">
+                    </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card mt-4">
+                    <div style="background-color: black;" class="card-header">
+                        <h6 class="text-white text-center">tercer Card</h6>
+                    </div>
+                    <div class="card-body">
+                        <p>Daniel Velasco Lopez</p>
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div style="background-color: black;" class="card-header">
+                        <h6 class="text-white text-center">tercer Card</h6>
+                    </div>
+                    <div class="card-body">
+                        <p>Ingenieria en sistemas computacionales</p>
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div style="background-color: black;" class="card-header">
+                        <h6 class="text-white text-center">tercer Card</h6>
+                    </div>
+                    <div class="card-body">
+                        <p>Originario de San Jose Zaragoza Yucuhiti</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin del 3er row-->
     </div>    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
